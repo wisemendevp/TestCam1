@@ -305,7 +305,7 @@ public class CameraLauncher extends CordovaPlugin implements MediaScannerConnect
             if(intent.resolveActivity(mPm) != null)
             {
 
-                this.cordova.startActivityForResult((CordovaPlugin) this, intent, (CAMERA + 1) * 16 + returnType + 1);
+          //test//  this.cordova.startActivityForResult((CordovaPlugin) this, intent, (CAMERA + 1) * 16 + returnType + 1);
             }
             else
             {
